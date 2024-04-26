@@ -4,9 +4,9 @@ class Account{
     public double accountBalance;
 
     public static void printResult(){
-        System.out.println("Account Holder Name: "+ a1.accountHolderName);
-        System.out.println("Account Number: "+ a1.accountNumber);
-        System.out.println("Account Balance: "+ a1.accountBalance);
+        System.out.println("Account Holder Name: "+ this.accountHolderName);
+        System.out.println("Account Number: "+ this.accountNumber);
+        System.out.println("Account Balance: "+ this.accountBalance);
     }
 
     public static void Account(String a, String b, double c){
